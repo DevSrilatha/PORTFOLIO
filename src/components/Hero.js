@@ -11,7 +11,7 @@ const Home = () => {
     >
       <Container className="text-center">
         <h1>
-          Hello, I'm <span className="text-primary">Nama Srilatha</span>
+          Hello, I'm <span className="text-primary">Srilatha Nama</span>
         </h1>
         <p className="lead">Aspiring Software Development Engineer</p>
         <a href="/projects" className="btn btn-primary mt-3">

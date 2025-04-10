@@ -2,7 +2,8 @@ import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 
 const Resume = () => {
-  const resumePath = "/Srilatha_Nama_Resume (1).pdf";
+  // Use PUBLIC_URL to handle subdirectory deployments (like /Portfolio-Srilatha_Nama)
+  const resumePath = `${process.env.PUBLIC_URL}/Srilatha_resume.pdf`;
 
   return (
     <Container style={{ paddingTop: '100px', textAlign: 'center' }}>
